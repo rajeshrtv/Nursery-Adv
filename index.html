@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMC Nursery</title>
+
+
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+    <div class="container-fluid" style="margin: 1px;">
+      <a class="navbar-brand" href="#"><img src="/logo1.png" alt="" height="60px">VMC <span style="color: 	rgb(16, 243, 194);">Nursery</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(47, 243, 21); font-weight: 500; font-size: 20px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"
+              style="color: rgb(47, 243, 21); font-weight: 500; font-size: 20px;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plants"
+              style="color:   rgb(47, 243, 21); font-weight: 500; font-size: 20px;">Plants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seeds"
+              style="color:  rgb(47, 243, 21); font-weight: 500; font-size: 20px;">Seeds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pots"
+              style="color:   rgb(47, 243, 21); font-weight: 500; font-size: 20px;">Pots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login"
+              style="color:   rgb(47, 243, 21); font-weight: 500; font-size: 20px;">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+
+  <!-- Carousel Start -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/home-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/home-2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/home-3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel End -->
+
+  <!-- About Section Starts -->
+  <section id="about" class="about section-padding" style="background-color: rgb(152, 238, 152);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="about-img" style=" box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);">
+            <img src="/about.jpg" alt="" class="img-fluid"
+              style="border-radius: 4px; border: solid 4px rgb(241, 162, 14);">
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+          <div class="about-text">
+            <h2>Our Motto To Spread Knowledge</h2>
+            <p style="font-size: 18px;">Gardens provide us with fresh produce, clean air and create habitat for
+              wildlife. They also help reduce
+              food miles and carbon emissions. But we shouldn't just stick to growing flowers - there are many different
+              types of plants that can benefit our health too.</p>
+            <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal"
+              style="border: solid 2px black;">Contact Us</a>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Contact Us</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>
+                      <i class="fas fa-home mr-3" style="margin-right: 8px;"></i>VMC Nursery, Kamati Baug, Baroda -
+                      390007
+                    </p>
+                    <p>
+                      <i class="fas fa-envelope mr-3" style="margin-right: 8px;"></i>vmc@gmail.com
+                    </p>
+                    <p>
+                      <i class="fas fa-phone mr-3" style="margin-right: 8px;"></i>+91 6352437795
+                    </p>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- about section Ends -->
+
+  <!--  Plants Section Starts -->
+  <section class="plants section-padding" id="plants" style="background-color: rgb(117, 245, 192);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Plants</h2>
+            <p style="font-weight: 500;">"A Beautiful Plant Is Like Having A Friend Around House"</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-1.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Basil</h3>
+              <p class="lead" style="font-size: 18px;">Having antioxidants and anti-bacterial properties, basil helps
+                maintain skin health,
+                boosts digestion and detoxifies the body.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-2.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Amaryills</h3>
+              <p class="lead" style="font-size: 18px;">Their leaves and bulb contain an alkaloid, a chemical known to
+                exhibit antitumoral, antiparasitic and other healing properties.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-3.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Hyacinth</h3>
+              <p class="lead" style="font-size: 18px;">Consume stir-fried hyacinth beans to treat digestive problems
+                like diarrhea,
+                flatulence, obesity and help soothe an inflamed throat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Plants Section Ends -->
+
+  <!-- Seeds strats -->
+  <section id="seeds" class="seeds section-padding" style="background-color: rgb(252, 174, 174);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Seeds</h2>
+            <p style="font-weight: 500;">"From Small Seeds Grow Mighty Trees"</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-4.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Flax</h3>
+              <p class="lead" style="font-size: 18px;">Flax seeds have been linked to health benefits, such as improved
+                digestion and a reduced
+                risk of heart disease and cancer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-5.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Sesame</h3>
+              <p class="lead" style="font-size: 18px;">Sesame seeds are a good source of healthy fats, protein, B
+                vitamins, minerals, fiber,
+                antioxidants, and other beneficial plant compounds.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-6.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Pistachios</h3>
+              <p class="lead" style="font-size: 18px;">Pistachios can help keep your blood pressure, cholesterol, and
+                blood sugar. Pistachios are a nutritious addition to your diet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Seeds Ends -->
+
+  <!-- Pots Starts -->
+  <section class="pots section-padding" id="pots" style="background-color: rgb(165, 236, 245)">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Pots</h2>
+            <p style="font-weight: 500;">"Wherever Life Plants You, Bloom With Grace"</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-7.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Clay</h3>
+              <p class="lead" style="font-size: 18px;">Clay pots are readily available and good for growing plants.
+                However, they can be
+                expensive and heavy in large sizes, breakable if dropped, and many are subject to cracking in
+                freezing temperatures.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-8.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Glazed Ceramic</h3>
+              <p class="lead" style="font-size: 18px;"> These are the most colorful pots ranging from subtle earthen
+                tones to playful. They
+                are varied in style for plant growth. Most of them are subject to freeze damage,
+                so they are a good investment.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2" style="border: solid 3px black;">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="/project-9.jpg" class="img-fluid" alt="" style="border: solid 3px rgb(241, 162, 14);">
+              </div>
+              <h3 class="card-title" style="font-size: 22px;">Concrete</h3>
+              <p class="lead" style="font-size: 18px;">Attractive, durable, and affordable, concrete pots can be found
+                for sale from local, wayside shops
+                that manufacture them, as well as in highly styled forms from the trendiest shops.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pots Ends -->
+
+  <!-- Login starts -->
+  <section id="login" class="login section-padding" style="background-color: rgb(37, 163, 247);">
+    <div class="container" style="max-width: 440px; padding: 0 20px; margin-top: 35px; ">
+      <div class="page">
+        <div class="title"></div>
+        <form>
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="username" placeholder="Email or Phone" name="username" required>
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="password" required>
+          </div>
+
+          <div class="row button">
+            <input type="submit" value="Login" onClick="loginPage(this.form)">
+          </div>
+
+        </form>
+      </div>
+      <script>
+        function loginPage(form) {
+          if (form.username.value == "vmc") {
+            if (form.password.value == "123") {
+              location = "index.html"
+            } else {
+              alert("Incorrect detail Password")
+            }
+          } else {
+            alert("Incorrect detail Username")
+          }
+        }
+      </script>
+  </section>
+  <!-- Login Ends -->
+
+  <!-- Footer Starts -->
+  <footer class="bg-dark p-2 text-center">
+    <div class="container">
+      <p class="text-white">All Rights Reserved By Vadodara Muncipal Corporation</p>
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+
+  <!-- All Js -->
+  <script src="/bootstrap.min.css"></script>
+  <script src="/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

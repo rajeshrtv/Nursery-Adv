@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #f1fbff;
+	position: relative; 
+}
+
+
+.navbar-light .navbar-brand {
+	color: #f7c029;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #f7c029;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #f7c029;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #f7c029;
+}
+
+.w-100 {
+	height: 100vh;
+}
+
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: rgb(5, 185, 5);
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.carousel-item {
+	height: 75vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.plants .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.seeds .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.pots .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+.page {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+  }
+
+  .page .title{
+    height: 60px;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page form{
+    padding: 30px 25px 25px 25px;
+  }
+
+  .page form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .page form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .page form .row input:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+  }
+
+  .page form .row input::placeholder {
+    color: #999;
+  }
+
+  .page form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page form .pass{
+    margin: -8px 0 20px 0;
+  }
+  .page form .pass a{
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .page form .pass a:hover{
+    text-decoration: underline;
+  }
+  .page form .button input{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+  }
+
+  .page form .button input:hover {
+    background: #12876f;
+  }
+
+  
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
